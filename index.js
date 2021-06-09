@@ -10,14 +10,14 @@ let numFormatter = Intl.NumberFormat();
 
 
 // 2. Use console.log to print the 'typeof' each variable. Print one item per line.
-console.log("Type check for each variable.")
+console.log("Type check for each variable.");
 console.log(typeof spaceShuttleName);
 console.log(typeof shuttleSpeed_MPH);
 console.log(typeof distToMars_KM);
 console.log(typeof distToMoon_KM);
 console.log(typeof milesPer_KM);
 
-console.log()
+console.log();
 
 // Code your solution to exercises 3 and 4 here:
 
@@ -42,4 +42,4 @@ console.log();
 let milesToMoon = distToMoon_KM * milesPer_KM;
 let hoursToMoon = milesToMoon / shuttleSpeed_MPH;
 let daysToMoon = hoursToMars / 24;
-console.log(`${spaceShuttleName} will take ${daysToMoon} days to reach the Moon.`)
+console.log(`${spaceShuttleName} will take ${daysToMoon} days to reach the Moon.`);
