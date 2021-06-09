@@ -43,3 +43,5 @@ let milesToMoon = distToMoon_KM * milesPer_KM;
 let hoursToMoon = milesToMoon / shuttleSpeed_MPH;
 let daysToMoon = hoursToMars / 24;
 console.log(`${spaceShuttleName} will take ${daysToMoon} days to reach the Moon.`)
+
+console.log("I wish I were a bird/")
